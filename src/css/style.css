@@ -1,0 +1,197 @@
+body{
+    background-color: auto;
+    margin: 0;
+}
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+.container{
+    width: 1170px;
+    margin: 0 auto;
+}
+.promo{
+    height: 800px;
+    background: url(../img/header/main_bg.jpg) center center/cover no-repeat;
+    padding: 30px 0px  62px 0px;
+}
+.logo_img{
+    display: block;
+    margin: 0 auto;
+}
+.logo_text{
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 15px;
+    line-height: 24px;
+    text-align: center;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    margin-top: 14px;
+    margin-bottom: 50px;
+}
+.title{
+    color: #F9BF3B;
+    text-transform: uppercase;
+    text-align: center;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 900;
+    font-size: 41px;
+}
+.title_big{
+font-family: Roboto;
+font-style: normal;
+font-weight: 900;
+font-size: 80px;
+line-height: 80px;
+/* or 100% */
+text-align: center;
+text-transform: uppercase;
+color: #FFFFFF;
+}
+.promo_text{
+    width: 1144px;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 21px;
+    line-height: 28px;
+    text-align: center;
+    color: #FFFFFF;
+    margin-top: 30px;
+}
+.promo_text span{
+    color: #F9BF3B;
+    font-weight: bold;
+}
+.promo_btn{
+    width: 313px;
+    height: 72px;
+    font-family: Roboto Condensed;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 21px;
+    line-height: 24px;
+    text-align: center;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    background: linear-gradient(0deg, #2798B9 0%, #3AB6DA 100%);
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.4);
+    display: block;
+    margin: 0 auto;
+    margin-top: 73px;
+    margin-bottom: 73px;
+    cursor: pointer;
+}
+.promo_btn:hover{
+    box-shadow: 0px 0px 20px rgba(0, 0, 0, 1);
+    background: linear-gradient(0deg, #4a7890 0%, #3AB6DA 100%);
+}
+.more_text{
+    text-transform: uppercase;
+    color:#FFFFFF;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 200;
+    font-size: 15px;
+    line-height: 24px;
+}
+.more_text{
+    text-align: center;
+    margin:0 auto
+}
+.down{
+    margin-top: 10px;
+    display: block;
+    margin:0 auto
+}
+.waiter{
+    height: 607px;
+    background: #EFEFEF;
+    padding-top: 80px;
+}
+.waiter .title{
+    color:#252525;
+    font-size: 30px;
+    font-weight: normal;
+    line-height: 30px;
+}
+.poloska {
+    margin: 0 auto;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    width: 220px;
+    height: 7px;
+    background: #F9BF3B;
+}
+.waiter h3.title{
+    font-size: 23px;
+}
+.waiter div.waiter_text{
+    display: block;
+    max-width: 369px;
+    margin: 0 auto;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 15px;
+    line-height: 21px;
+    text-align: center;
+    color: #4A4A4A;
+}
+.waiter_column{
+    display: inline-block;
+    width: 384px;
+    margin: 0 auto;
+    margin-top: 50px;
+    vertical-align: top;
+    
+}
+.waiter_img{
+    display: block;
+    margin: 0 auto;
+}
+
+.optimization{
+    height: 502px;
+    background: url(../img/woman_bg.jpg) left no-repeat;
+    padding-top: 100px;
+}
+.optimization .title{
+    font-weight: 900;
+    font-size: 30px;
+    line-height: 30px;
+    color: #299CBD;
+    width: 780px;
+    float: right;
+}
+.optimization_text{
+width: 750px;
+font-family: Roboto;
+font-style: normal;
+font-weight: 300;
+font-size: 17px;
+line-height: 27px;
+color: #4A4A4A;
+float: right;
+margin-top: 30px;
+}
+
+.finish{
+    height: 447px;
+    background: url(../img/finish/second_bg.jpg) center center/cover no-repeat;
+    padding-top: 80px;
+}
+.finish_title{    
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 30px;
+    line-height: 30px;
+    text-align: center;
+    text-transform: uppercase;
+    color: #EFEFEF;
+}
